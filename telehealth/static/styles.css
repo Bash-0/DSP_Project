@@ -1,0 +1,185 @@
+.header {
+    background-color: lightblue;
+    color: white;
+    padding: 10px 20px;
+    text-align: left;
+}
+
+.card-header {
+    background-color: lightblue; 
+    color: white; 
+    padding: 10px 20px; 
+}
+
+.card {
+    max-width: 70%; 
+    margin: 0 auto; 
+    margin-top: 55px;
+}
+
+.custom-card {
+    background-color: #f8f9fa;
+    border: 1px solid #dee2e6;
+    border-radius: 0.25rem;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.custom-card-header {
+    background-color: #edc058;
+    color: #fff;
+    padding: 10px;
+}
+
+.custom-card-body {
+    padding: 20px;
+}
+
+
+#id_username_help_text {
+    display: none;
+}
+
+.home_header {
+    background-color: #0080FF;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+
+.doctor-header {
+    background-color: #08ac9c;
+    color: white;
+    padding: 10px 20px;
+    text-align: left;
+}
+
+.doctor-card-header {
+    background-color: #08ac9c; 
+    color: white; 
+    padding: 10px 20px; 
+}
+
+.patient-header {
+    background-color: #0cccf4;
+    color: white;
+    padding: 10px 20px;
+    text-align: left;
+}
+
+.patient-card-header {
+    background-color: #0cccf4; 
+    color: white; 
+    padding: 10px 20px; 
+}
+
+/* admin register form */
+/* Align the labels on top of the input boxes */
+form label {
+    display: block; /* Ensure labels appear on separate lines */
+    margin-bottom: 5px; /* Add some space between labels and input boxes */
+}
+
+
+form input[type="text"],
+form input[type="email"],
+form input[type="password"] {
+    width: calc(100% - 10px);
+    padding: 6px; 
+    margin-bottom: 10px; 
+    box-sizing: border-box; 
+    height: 30px; 
+}
+
+form input, select {
+    border-radius: 6px;
+    border: 1px solid grey;
+}
+
+.dashboard-header {
+    margin-top: -40px;
+    padding: 10px; 
+}
+
+.logout-btn {
+    background-color: #00D100;
+    border-radius:8px;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+}
+
+#profile-btn {
+    background-color: #5C5CFF;
+    border-radius:8px;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    margin-right:5px;
+}
+
+#prescriptions-card {
+    margin-left: 0;
+    width: 90%;
+}
+
+#book-appointment-card {
+    margin-right: 0;
+    width: 100%;
+}
+
+.patient-dashboard-header {
+    margin-top: -60px;
+    margin-bottom: 80px;
+    text-align: center;
+}
+
+#doctor-prescriptions {
+    margin-right: -5px;
+    width: 80%;
+}
+
+#health-analysis-card {
+    margin-left: 5px;
+    width: 100%;
+}
+
+
+/* Example CSS for styling the prescription form */
+.prescription-form {
+    max-width: 500px;
+    margin: auto;
+}
+
+.prescription-form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.prescription-form input[type="text"],
+.prescription-form textarea,
+.prescription-form select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+
+.prescription-form button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.prescription-form button:hover {
+    background-color: #0056b3;
+}
+
+
+
